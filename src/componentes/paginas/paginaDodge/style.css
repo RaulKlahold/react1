@@ -1,0 +1,59 @@
+.paiDodge{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-image: url('../../../../public/assets/textura\ dark.jpg');
+    }
+    .logo-d{
+        display: flex;
+        height: 150px;
+        width:100%;
+        background-color: brown;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-color: black;
+        }
+
+    .logo-d h1{
+       height: 90px;
+       width: 100%;
+       text-align: left;
+       color: white;
+       margin-left: 150px;
+       margin-top: 50px;
+       font-size: 40px;
+       font-style: oblique;
+       font-family: 'Times New Roman', Times, serif;
+       font-weight: 900;
+    }
+       .cards-d{
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        width: 100%; 
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .botao-voltar-2 {
+        display: flex;
+        height: 60px;
+        width: 90px ;
+        padding: 15px;
+        border: 1px solid #221F1F;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: none;
+        color: #b8a5a5;
+        text-align: center;
+        box-shadow: inset 5px 5px 5px;
+        margin: 0px 50px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;}

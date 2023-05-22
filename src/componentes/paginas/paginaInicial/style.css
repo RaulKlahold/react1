@@ -1,0 +1,116 @@
+.Divpai{
+    display: flex;
+    box-sizing: border-box;
+    
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+   .conteudo-opcao{
+    display: flex;
+    width: 100vw;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+.opcao-Dodge{
+    display: flex;
+    height: 60px;
+    width: 90px ;
+    padding: 15px;
+    border: 1px solid #221F1F;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: #464242;
+    text-align: center;
+    box-shadow: inset 5px 5px 5px;
+    margin: 0px 50px;
+    box-sizing: border-box;
+    
+}
+.opcao-shelby{
+    display: flex;
+    height: 60px;
+    width: 90px ;
+    display: flex;
+    padding: 15px;
+    border: 1px solid #221F1F;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: #464242;
+    text-align: center;
+    box-shadow: inset 5px 5px 5px;
+    margin: 0px 50px;
+    box-sizing: border-box;
+    
+}
+.secao-banner{
+    background-image: url('../../../../public/assets/Mustang\ Teaser.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    line-height: 0px;
+    text-align: left;
+    flex-direction: column;
+    
+  
+}
+.secao-banner h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 900;
+    text-shadow: 1px 1px 8px ;
+    color: white;
+    width: 600px;
+    height: 5px;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+
+}
+.secao-banner p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    width: 600px;
+    height: 5px;
+    margin-left: 10%;
+    
+
+}
+.footer{
+    background-image: url('../../../../public/assets/textura\ dark.jpg');
+    box-sizing: border-box;
+    height: 15%;
+    width: 100%;
+}
+.barrinha{
+    background-image: url('../../../../public/assets/barrinha\ com\ estilo.jpg');
+    box-sizing: border-box;
+    height: 10px;
+    margin-top: 10px;
+}
+.botao-voltar{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ABA0A0;
+    font-style: oblique;
+    text-decoration: none;
+    text-align: center;
+}
